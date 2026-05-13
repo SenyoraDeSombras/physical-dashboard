@@ -67,7 +67,7 @@ pip install pynvml psutil pyserial pystray Pillow
 Ensure your ESP32 is plugged into your PC, then run:
 
 ```bash
-python dashboard_app.py
+python dashboard_app.pyw
 ```
 
 The application will scan your COM ports, perform a handshake (`Who A U?` $\rightarrow$ `DASHBRD`), and begin updating the hardware.
