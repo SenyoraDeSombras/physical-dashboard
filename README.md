@@ -6,6 +6,8 @@
 
 A real-time, physical hardware monitoring system that bridges PC performance metrics (CPU, GPU, and VRAM) to a custom-built desktop dashboard. The system utilizes an ESP32 microcontroller to drive a magnetoelectric galvanometer (analog needle) and a 4-digit 7-segment display.
 
+![photo_device](https://github.com/SenyoraDeSombras/physical-dashboard/blob/main/photo.jpg)
+
 ## 🚀 Features
 
 - **Real-time Monitoring**: Low-latency tracking of CPU utilization, GPU utilization, and VRAM usage.
@@ -29,7 +31,7 @@ A real-time, physical hardware monitoring system that bridges PC performance met
 - **TM1637 CLK**: GPIO 8
 - **TM1637 DIO**: GPIO 9
 ### 🔌Schematic
-![Schematic](https://github.com/SenyoraDeSombras/physical-dashboard/blob/main/schematics.png) "Schematic")
+![Schematic](https://github.com/SenyoraDeSombras/physical-dashboard/blob/main/schematics.png)
 ## 💻 Software Requirements
 
 ### Backend (Python 3.x)
