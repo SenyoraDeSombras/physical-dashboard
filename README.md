@@ -23,13 +23,13 @@ A real-time, physical hardware monitoring system that bridges PC performance met
 | **Microcontroller** | ESP32 | Main logic and PWM/Serial controller |
 | **Display** | TM1637 4-Digit 7-Segment | Digital readout for CPU/VRAM |
 | **Actuator** | Magnetoelectric Galvanometer | Analog needle movement |
-| **Driver** | PWM-capable MOSFET/Transistor | To interface ESP32 with the galvanometer |
 
 ### Pin Mapping (ESP32)
 - **PWM Output (Needle)**: GPIO 14
 - **TM1637 CLK**: GPIO 8
 - **TM1637 DIO**: GPIO 9
-
+### 🔌Schematic
+![Schematic](https://github.com/SenyoraDeSombras/physical-dashboard/blob/main/schematics.png) "Schematic")
 ## 💻 Software Requirements
 
 ### Backend (Python 3.x)
